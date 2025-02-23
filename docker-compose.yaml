@@ -1,0 +1,6 @@
+version: '3.8'
+services:
+  web:
+    image: git-registry.gibb.ch/rwi146345/dockerroger/snakegame
+    ports:
+      - "8080:80" 
